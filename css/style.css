@@ -1,0 +1,311 @@
+/* Завантаженні шрифти */
+@font-face {
+	font-family: 'Sensei';
+	src: url('../fonts/Sensei-Medium.woff2') format('woff2'),
+		 url('../fonts/Sensei-Medium.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+/* ------------------------------------------------------------ */
+@font-face {
+	font-family: 'Besom 2';
+	src: url('../fonts/Besom.woff2') format('woff2'),
+		 url('../fonts/Besom.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+/* ------------------------------------------------------------ */
+@font-face {
+	font-family: 'Movus BrushPen C';
+	src: url('../fonts/MovusBrushPenC.woff2') format('woff2'),
+		 url('../fonts/MovusBrushPenC.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+/* ------------------------------------------------------------ */
+@font-face {
+	font-family: 'FE Hero';
+	src: url('../fonts/FEHero-Regular.woff2') format('woff2'),
+		 url('../fonts/FEHero-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+/* ------------------------------------------------------------ */
+@font-face {
+	font-family: 'Dewberry';
+	src: url('../fonts/Dewberry.woff2') format('woff2'),
+		 url('../fonts/Dewberry.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* ------------------------------------------------------------ */
+@font-face {
+	font-family: 'Zing Rust Demo Base';
+	src: url('../fonts/ZingRustDemo-Base.woff2') format('woff2'),
+		 url('../fonts/ZingRustDemo-Base.woff') format('woff');
+	font-weight: normal;
+	font-style: italic;
+	font-display: swap;
+}
+/* ------------------------------------------------------------ */
+@font-face {
+	font-family: 'Cabana';
+	src: url('../fonts/Cabana-Regular.woff2') format('woff2'),
+		 url('../fonts/Cabana-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+/* ------------------------------------------------------------ */
+@font-face {
+	font-family: 'Chickpeas';
+	src: url('../fonts/Chickpeas.woff2') format('woff2'),
+		 url('../fonts/Chickpeas.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+/* ------------------------------------------------------------ */
+@font-face {
+	font-family: 'Zing Script Rust SB Demo Base';
+	src: url('../fonts/ZingScriptRustSBDemo-Base.woff2') format('woff2'),
+		 url('../fonts/ZingScriptRustSBDemo-Base.woff') format('woff');
+	font-weight: 600;
+	font-style: italic;
+	font-display: swap;
+}
+/* ------------------------------------------------------------ */
+@font-face {
+	font-family: 'Zing Sans Rust L Demo Base';
+	src: url('../fonts/ZingSansRustLDemo-Base.woff2') format('woff2'),
+		 url('../fonts/ZingSansRustLDemo-Base.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+/* ------------------------------------------------------------ */
+@font-face {
+	font-family: 'Zing Rust Demo Sh1';
+	src: url('../fonts/ZingRustDemo-Sh1.woff2') format('woff2'),
+		 url('../fonts/ZingRustDemo-Sh1.woff') format('woff');
+	font-weight: normal;
+	font-style: italic;
+	font-display: swap;
+}
+/* ------------------------------------------------------------ */
+/* ------------------------------------------------------------ */
+/* ------------------------------------------------------------ */
+/* Стили обнуления */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+
+/* ------------------------------------------------------------ */
+/* ------------------------------------------------------------ */
+/* ------------------------------------------------------------ */
+
+.menu .menu {
+	margin-top: 20px;
+	font-family: "Sensei";
+	font-size: 60px;
+	color: #ffbb00;
+	text-align:center;
+	text-decoration: underline overline;
+	text-shadow: 3px 3px 6px red,  -3px -3px 6px red;
+	text-transform: uppercase;
+	white-space: nowrap;
+	letter-spacing: 20px;
+}
+
+p.first__paragraph {
+	margin-top: 20px;
+	font-family: "Besom 2";
+	font-size: 24px;
+	color: violet;
+	text-align:right;
+	text-shadow: 2px 0px 1px black;
+}
+
+.navigation ul{
+	font-family: "Besom 2";
+	font-size: 24px;
+	text-align:right;
+}
+
+.paragraph {
+	font-family: "Movus BrushPen C";
+	text-decoration: overline;
+	margin-top: 20px;
+	font-size: 32px;
+	color: #94064d;
+	text-align:center;
+	text-shadow: 1px 1px 10px rgb(65, 60, 61), 1px 1px 10px rgb(65, 60, 61);
+	letter-spacing: 5px;
+}
+
+span {
+	color: firebrick;
+}
+
+.intro {
+	margin-top: 20px;
+	font-family: "Zing Script Rust SB Demo Base", bold;
+	font-size: 22px;
+	color: #000000;
+	text-align:justify;
+	letter-spacing: 5px;
+	line-height: 22px;
+	text-shadow: -8px -3px 2px rgb(4, 207, 173);
+}
+
+.history {
+	margin-top: 20px;
+	font-family: "Dewberry";
+	font-size: 22px;
+	color: #a30202;
+	text-align:justify;
+	letter-spacing: 5px;
+	line-height: 22px;
+	text-shadow: 1px 1px 1px #000;
+}
+
+.burning__crusade {
+	margin-top: 20px;
+	font-family: "Zing Rust Demo Base";
+	font-size: 28px;
+	color: #700a74;
+	text-align:justify;
+	letter-spacing: 5px;
+	line-height: 22px;
+}
+
+.solar__well {
+	margin-top: 20px;
+	font-family: "Cabana";
+	font-size: 28px;
+	color: #000000;
+	text-align:justify;
+	letter-spacing: 5px;
+	line-height: 22px;
+	text-shadow: -5px -3px 5px rgb(6, 84, 87);
+	text-decoration: line-through;
+}
+
+.lich__king {
+	margin-top: 20px;
+	font-family: "Chickpeas";
+	font-size: 28px;
+	color: navy;
+	text-align:justify;
+	letter-spacing: 5px;
+	line-height: 22px;
+	text-shadow: 0px 0px 5px rgb(6, 84, 87);
+	line-height: 30px;
+}
+
+.physical__data {
+	margin-top: 20px;
+	font-family: "Zing Script Rust SB Demo Base";
+	font-size: 28px;
+	color: green;
+	text-align:justify;
+	letter-spacing: 5px;
+	line-height: 22px;
+	line-height: 30px;
+}
+
+.physical__data__eyes {
+	margin-top: 20px;
+	font-family: "Zing Sans Rust L Demo Base";
+	font-size: 22px;
+	color: rgb(175, 25, 83);
+	text-align:justify;
+	letter-spacing: 5px;
+	line-height: 22px;
+	line-height: 30px;
+}
+.culture {
+	margin-top: 20px;
+	font-family: "Zing Rust Demo Sh1";
+	font-size: 22px;
+	color: rgb(175, 25, 83);
+	text-align:justify;
+	letter-spacing: 5px;
+	line-height: 22px;
+	line-height: 30px;
+	text-shadow: 1px 1px 1px #000;
+}
+.fascination__with__magic {
+	margin-top: 20px;
+	font-family: "FE Hero";
+	font-size: 22px;
+	color: rgb(204, 62, 133);
+	text-align:justify;
+	letter-spacing: 5px;
+	line-height: 22px;
+	line-height: 30px;
+	text-shadow: 1px 1px 1px #000;
+}
+.classes {
+	margin-top: 20px;
+	font-family: "Besom 2";
+	font-size: 22px;
+	color: rgb(13, 173, 152);
+	text-align:center;
+	letter-spacing: 5px;
+	line-height: 22px;
+	line-height: 30px;
+	text-shadow: 1px 1px 1px #000;
+}
+p.classes {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: deepskyblue;
+	text-align: center;
+}
+p.famous__blood__elves{
+	text-align: center;
+}
+
+.famous__blood__elves{
+	margin-top: 20px;
+	font-family: "Sensei";
+	font-size: 22px;
+	color:orange;
+	text-align:left;
+	letter-spacing: 5px;
+	line-height: 22px;
+	line-height: 30px;
+	text-shadow: 1px 1px 1px #000;
+}
